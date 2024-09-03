@@ -1,18 +1,16 @@
-/* Estilo general del cuerpo */
 .cuerpo {
     background-image: url(FondoPP.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; /* Asegura que el fondo siempre esté centrado */
-    display: flex; /* Activa Flexbox */
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
-    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
-    margin: 0; /* Elimina el margen por defecto del body */
-    padding: 0; /* Elimina el padding por defecto del body */
+    background-position: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0;
 }
 
-/* Animación de zoom */
 @keyframes zoomInOut {
     0%, 100% {
         transform: scale(1);
@@ -22,9 +20,9 @@
     }
 }
 
-/* Cuadro de texto */
+
 .cuadrotexto {
-    width: 90%; /* Ajustado para pantallas más pequeñas */
+    width: 90%;
     max-width: 600px;
     padding: 20px;
     background-color: #4c666b70;
@@ -33,30 +31,29 @@
     box-shadow: 0 4px 8px rgba(0, 0, 2, 0.1);
     text-align: center;
     animation: slideIn 0.5s ease-out;
-    transition: transform 0.3s ease; /* Suaviza las transiciones */
+    transition: transform 0.3s ease; 
 }
 
-/* Media Queries para diferentes tamaños de pantalla */
+
 @media (max-width: 768px) {
     .cuadrotexto {
-        width: 100%; /* Asegura que ocupe el 100% del ancho disponible en pantallas pequeñas */
-        padding: 15px; /* Reduce el padding para pantallas más pequeñas */
-        font-size: 0.9rem; /* Ajusta el tamaño de la fuente para mejor legibilidad */
+        width: 100%; 
+        padding: 15px;
+        font-size: 0.9rem; 
     }
 
     .cuerpo {
-        padding: 10px; /* Reduce el padding general */
+        padding: 10px; 
     }
 }
 
 @media (max-width: 480px) {
     .cuadrotexto {
-        font-size: 0.8rem; /* Ajuste adicional para pantallas muy pequeñas */
+        font-size: 0.8rem; 
         padding: 10px;
     }
 }
 
-/* Animación de deslizamiento */
 @keyframes slideIn {
     from {
         transform: translateX(-100%);
@@ -68,7 +65,6 @@
     }
 }
 
-/* Clase adicional para elementos de carga */
 .loading-element {
     animation: slideIn 0.5s ease-out;
 }
