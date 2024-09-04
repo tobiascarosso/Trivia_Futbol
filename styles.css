@@ -56,5 +56,32 @@
       .button:active {
         animation: bounce 0.3s ease;
       } */
+
+
+
+
+.pregunta{
+  padding: 10px;
+}
+.imagen{
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+.boton{
+  background-color: grey;
+  border-radius: 10px;
+  border-color: rgb(78, 78, 78);
+  width: 60%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.boton:hover{
+  background-color: lightblue;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
       
     
