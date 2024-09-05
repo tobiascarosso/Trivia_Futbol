@@ -1,0 +1,406 @@
+[
+
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Cuál es el récord de más goles en una sola temporada de la Serie A italiana?",
+    "respuesta": "Gonzalo Higuaín",
+    "incorrecta1": "Lautaro Martínez",
+    "incorrecta2": "Francesco Totti",
+    "incorrecta3": "Gabriel Batistuta"
+},
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Quién tiene el récord de más goles en la historia de la Premier League?",
+    "respuesta": "Alan Shearer",
+    "incorrecta1": "Thierry Henry",
+    "incorrecta2": "Wayne Rooney",
+    "incorrecta3": "Sergio Agüero"
+},
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Cuál es el equipo con más títulos de Champions League?",
+    "respuesta": "Real Madrid",
+    "incorrecta1": "FC Barcelona",
+    "incorrecta2": "AC Milan",
+    "incorrecta3": "Bayern Múnich"
+},
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Quién es el jugador con más apariciones en la historia de la Champions League?",
+    "respuesta": "Cristiano Ronaldo",
+    "incorrecta1": "Lionel Messi",
+    "incorrecta2": "Iker Casillas",
+    "incorrecta3": "Xavi Hernández"
+},
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Qué selección ha ganado más Copas del Mundo?",
+    "respuesta": "Brasil",
+    "incorrecta1": "Alemania",
+    "incorrecta2": "Italia",
+    "incorrecta3": "Argentina"
+},
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Quién tiene el récord de más goles en un Mundial?",
+    "respuesta": "Miroslav Klose",
+    "incorrecta1": "Pelé",
+    "incorrecta2": "Ronaldo Nazário",
+    "incorrecta3": "Gerd Müller"
+},
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Qué club ha ganado más títulos de liga en la historia del fútbol argentino?",
+    "respuesta": "River Plate",
+    "incorrecta1": "Boca Juniors",
+    "incorrecta2": "Independiente",
+    "incorrecta3": "Racing Club"
+},
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Quién es el máximo goleador histórico de la selección argentina?",
+    "respuesta": "Lionel Messi",
+    "incorrecta1": "Gabriel Batistuta",
+    "incorrecta2": "Sergio Agüero",
+    "incorrecta3": "Diego Maradona"
+},
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Qué selección ha ganado más títulos de la Copa América?",
+    "respuesta": "Uruguay",
+    "incorrecta1": "Argentina",
+    "incorrecta2": "Brasil",
+    "incorrecta3": "Chile"
+},
+{
+    "categoria": "Estadísticas y Récords",
+    "pregunta": "¿Qué jugador es el máximo goleador de la historia del Real Madrid?",
+    "respuesta": "Cristiano Ronaldo",
+    "incorrecta1": "Raúl González",
+    "incorrecta2": "Alfredo Di Stéfano",
+    "incorrecta3": "Karim Benzema"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿Cuál es el estadio con mayor capacidad en Europa?",
+    "respuesta": "Camp Nou",
+    "incorrecta1": "Wembley",
+    "incorrecta2": "San Siro",
+    "incorrecta3": "Santiago Bernabéu"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿En qué estadio se celebró la final del Mundial 1950 entre Brasil y Uruguay?",
+    "respuesta": "Maracaná",
+    "incorrecta1": "Morumbi",
+    "incorrecta2": "Mineirão",
+    "incorrecta3": "Beira-Rio"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿Qué estadio es conocido como 'La Bombonera'?",
+    "respuesta": "Estadio Alberto J. Armando",
+    "incorrecta1": "Estadio Monumental",
+    "incorrecta2": "Estadio Libertadores de América",
+    "incorrecta3": "Estadio José Amalfitani"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿En qué estadio se juega el clásico entre Real Madrid y Atlético de Madrid?",
+    "respuesta": "Santiago Bernabéu",
+    "incorrecta1": "Camp Nou",
+    "incorrecta2": "Metropolitano",
+    "incorrecta3": "Mestalla"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿Qué estadio fue sede de la final de la Copa del Mundo 2014?",
+    "respuesta": "Maracaná",
+    "incorrecta1": "Arena Corinthians",
+    "incorrecta2": "Estadio Nacional de Brasilia",
+    "incorrecta3": "Mineirão"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿Qué estadio en México fue sede de dos finales de la Copa del Mundo?",
+    "respuesta": "Estadio Azteca",
+    "incorrecta1": "Estadio Jalisco",
+    "incorrecta2": "Estadio BBVA",
+    "incorrecta3": "Estadio Olímpico Universitario"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿Cuál es el estadio más grande de Inglaterra?",
+    "respuesta": "Wembley",
+    "incorrecta1": "Old Trafford",
+    "incorrecta2": "Anfield",
+    "incorrecta3": "Emirates Stadium"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿En qué estadio se juega el clásico de Avellaneda entre Racing Club e Independiente?",
+    "respuesta": "Cilindro de Avellaneda",
+    "incorrecta1": "Libertadores de América",
+    "incorrecta2": "La Bombonera",
+    "incorrecta3": "Monumental de Núñez"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿En qué estadio juega sus partidos como local el Bayern Múnich?",
+    "respuesta": "Allianz Arena",
+    "incorrecta1": "Signal Iduna Park",
+    "incorrecta2": "Olympiastadion",
+    "incorrecta3": "Mercedes-Benz Arena"
+},
+{
+    "categoria": "Estadios",
+    "pregunta": "¿Qué estadio fue sede de la final de la Champions League 2019?",
+    "respuesta": "Wanda Metropolitano",
+    "incorrecta1": "Parc des Princes",
+    "incorrecta2": "San Siro",
+    "incorrecta3": "Allianz Arena"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Quién fue el entrenador del FC Barcelona en su famoso sextete en 2009?",
+    "respuesta": "Pep Guardiola",
+    "incorrecta1": "Frank Rijkaard",
+    "incorrecta2": "Luis Enrique",
+    "incorrecta3": "Johan Cruyff"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Qué entrenador ha ganado más títulos de Champions League?",
+    "respuesta": "Carlo Ancelotti",
+    "incorrecta1": "Zinedine Zidane",
+    "incorrecta2": "Pep Guardiola",
+    "incorrecta3": "Alex Ferguson"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Qué entrenador es conocido por haber llevado al Atlético de Madrid a dos finales de la Champions League?",
+    "respuesta": "Diego Simeone",
+    "incorrecta1": "Luis Aragonés",
+    "incorrecta2": "Radomir Antić",
+    "incorrecta3": "Gregorio Manzano"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Quién fue el entrenador que ganó el Mundial con Alemania en 2014?",
+    "respuesta": "Joachim Löw",
+    "incorrecta1": "Jürgen Klinsmann",
+    "incorrecta2": "Franz Beckenbauer",
+    "incorrecta3": "Ottmar Hitzfeld"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Qué entrenador argentino ganó la Copa Libertadores con River Plate en 2015 y 2018?",
+    "respuesta": "Marcelo Gallardo",
+    "incorrecta1": "Ramón Díaz",
+    "incorrecta2": "Carlos Bianchi",
+    "incorrecta3": "Manuel Pellegrini"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Quién fue el entrenador que dirigió al Manchester United durante más de 26 años?",
+    "respuesta": "Alex Ferguson",
+    "incorrecta1": "Matt Busby",
+    "incorrecta2": "David Moyes",
+    "incorrecta3": "Ryan Giggs"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Quién fue el entrenador de España en la victoria de la Eurocopa 2008?",
+    "respuesta": "Luis Aragonés",
+    "incorrecta1": "Vicente del Bosque",
+    "incorrecta2": "Julen Lopetegui",
+    "incorrecta3": "Fernando Hierro"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Qué entrenador ganó la Premier League con Leicester City en la temporada 2015-16?",
+    "respuesta": "Claudio Ranieri",
+    "incorrecta1": "Nigel Pearson",
+    "incorrecta2": "Brendan Rodgers",
+    "incorrecta3": "Roberto Mancini"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Qué entrenador fue apodado 'El Loco' y ha entrenado equipos como el Leeds United y el Athletic Club?",
+    "respuesta": "Marcelo Bielsa",
+    "incorrecta1": "Gerardo Martino",
+    "incorrecta2": "Mauricio Pochettino",
+    "incorrecta3": "Jorge Sampaoli"
+},
+{
+    "categoria": "Entrenadores",
+    "pregunta": "¿Qué entrenador ganó el Mundial de 1998 con la selección de Francia?",
+    "respuesta": "Aimé Jacquet",
+    "incorrecta1": "Didier Deschamps",
+    "incorrecta2": "Raymond Domenech",
+    "incorrecta3": "Laurent Blanc"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Quién es el máximo goleador en la historia de la UEFA Champions League?",
+    "respuesta": "Cristiano Ronaldo",
+    "incorrecta1": "Lionel Messi",
+    "incorrecta2": "Robert Lewandowski",
+    "incorrecta3": "Raúl González"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Quién ha ganado más Balones de Oro?",
+    "respuesta": "Lionel Messi",
+    "incorrecta1": "Cristiano Ronaldo",
+    "incorrecta2": "Michel Platini",
+    "incorrecta3": "Johan Cruyff"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Qué jugador es apodado 'El Fenómeno'?",
+    "respuesta": "Ronaldo Nazário",
+    "incorrecta1": "Ronaldinho",
+    "incorrecta2": "Pelé",
+    "incorrecta3": "Zico"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Quién es el máximo goleador histórico de la selección brasileña?",
+    "respuesta": "Pelé",
+    "incorrecta1": "Ronaldo Nazário",
+    "incorrecta2": "Neymar",
+    "incorrecta3": "Romário"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Qué jugador argentino es conocido como 'El Diego'?",
+    "respuesta": "Diego Maradona",
+    "incorrecta1": "Gabriel Batistuta",
+    "incorrecta2": "Javier Zanetti",
+    "incorrecta3": "Lionel Messi"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Qué jugador ganó la Bota de Oro en el Mundial 2014?",
+    "respuesta": "James Rodríguez",
+    "incorrecta1": "Thomas Müller",
+    "incorrecta2": "Lionel Messi",
+    "incorrecta3": "Neymar"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Quién es el máximo goleador en la historia de la Premier League?",
+    "respuesta": "Alan Shearer",
+    "incorrecta1": "Thierry Henry",
+    "incorrecta2": "Wayne Rooney",
+    "incorrecta3": "Sergio Agüero"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Qué jugador marcó el gol decisivo en la final del Mundial 2010?",
+    "respuesta": "Andrés Iniesta",
+    "incorrecta1": "Xavi Hernández",
+    "incorrecta2": "David Villa",
+    "incorrecta3": "Fernando Torres"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Qué jugador es el máximo goleador en la historia de los mundiales?",
+    "respuesta": "Miroslav Klose",
+    "incorrecta1": "Ronaldo Nazário",
+    "incorrecta2": "Gerd Müller",
+    "incorrecta3": "Pelé"
+},
+{
+    "categoria": "Jugadores",
+    "pregunta": "¿Qué jugador ganó el primer Balón de Oro?",
+    "respuesta": "Stanley Matthews",
+    "incorrecta1": "Alfredo Di Stéfano",
+    "incorrecta2": "Ferenc Puskás",
+    "incorrecta3": "Raymond Kopa"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿En qué año se celebró la primera Copa del Mundo?",
+    "respuesta": "1930",
+    "incorrecta1": "1928",
+    "incorrecta2": "1934",
+    "incorrecta3": "1938"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿Qué país organizó el primer Mundial de Fútbol?",
+    "respuesta": "Uruguay",
+    "incorrecta1": "Brasil",
+    "incorrecta2": "Argentina",
+    "incorrecta3": "Italia"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿Qué club ganó la primera edición de la Copa Libertadores?",
+    "respuesta": "Peñarol",
+    "incorrecta1": "Boca Juniors",
+    "incorrecta2": "Santos",
+    "incorrecta3": "Independiente"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿Qué selección es la única en haber ganado el Mundial en todos los continentes donde se ha celebrado?",
+    "respuesta": "Brasil",
+    "incorrecta1": "Argentina",
+    "incorrecta2": "Alemania",
+    "incorrecta3": "Italia"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿Qué club europeo fue el primero en ganar la Champions League?",
+    "respuesta": "Real Madrid",
+    "incorrecta1": "Benfica",
+    "incorrecta2": "AC Milan",
+    "incorrecta3": "Manchester United"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿Qué equipo ganó la primera edición de la Premier League en 1992-1993?",
+    "respuesta": "Manchester United",
+    "incorrecta1": "Leeds United",
+    "incorrecta2": "Arsenal",
+    "incorrecta3": "Blackburn Rovers"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿Qué selección ganó el Mundial de 1998?",
+    "respuesta": "Francia",
+    "incorrecta1": "Brasil",
+    "incorrecta2": "Alemania",
+    "incorrecta3": "Argentina"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿Qué selección fue la primera en ganar la Eurocopa dos veces consecutivas?",
+    "respuesta": "España",
+    "incorrecta1": "Francia",
+    "incorrecta2": "Alemania",
+    "incorrecta3": "Italia"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿En qué año fue fundado el FC Barcelona?",
+    "respuesta": "1899",
+    "incorrecta1": "1902",
+    "incorrecta2": "1910",
+    "incorrecta3": "1923"
+},
+{
+    "categoria": "Historia del Fútbol",
+    "pregunta": "¿Qué equipo ha ganado más títulos en la historia del fútbol español?",
+    "respuesta": "Real Madrid",
+    "incorrecta1": "FC Barcelona",
+    "incorrecta2": "Atlético de Madrid",
+    "incorrecta3": "Valencia CF"
+}
+
+
+
+]
