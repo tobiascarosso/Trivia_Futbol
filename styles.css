@@ -183,10 +183,9 @@
 }
 .boton-container{
     display: flex;
-    flex-direction: column; /* Apila los botones verticalmente */
-    align-items: center; /* Centra los botones horizontalmente */
-    justify-content: center; /* Opcional: centra los botones verticalmente */
-    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 }
 .boton{ 
     display:flex;
