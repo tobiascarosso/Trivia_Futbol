@@ -399,6 +399,94 @@
     "incorrecta1": "FC Barcelona",
     "incorrecta2": "Atlético de Madrid",
     "incorrecta3": "Valencia CF"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Qué selección ha ganado más títulos de la Copa Mundial de la FIFA?",
+    "respuesta": "Brasil",
+    "incorrecta1": "Alemania",
+    "incorrecta2": "Argentina",
+    "incorrecta3": "Italia"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Cuál es el club con más títulos en la Liga de Campeones de la UEFA?",
+    "respuesta": "Real Madrid",
+    "incorrecta1": "AC Milan",
+    "incorrecta2": "Barcelona",
+    "incorrecta3": "Liverpool"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Qué selección ha ganado más títulos en la Copa América?",
+    "respuesta": "Uruguay",
+    "incorrecta1": "Brasil",
+    "incorrecta2": "Argentina",
+    "incorrecta3": "Chile"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Qué selección ha ganado más títulos en la Eurocopa?",
+    "respuesta": "Alemania",
+    "incorrecta1": "Francia",
+    "incorrecta2": "Italia",
+    "incorrecta3": "España"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Qué selección ha ganado más títulos en la Eurocopa?",
+    "respuesta": "Alemania",
+    "incorrecta1": "Francia",
+    "incorrecta2": "Italia",
+    "incorrecta3": "España"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Cuál es el club con más títulos en la Copa Libertadores?",
+    "respuesta": "Club Atlético Independiente",
+    "incorrecta1": "Boca Juniors",
+    "incorrecta2": "River Plate",
+    "incorrecta3": "San Lorenzo"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Qué club ha ganado más títulos de la Copa Mundial de Clubes de la FIFA?",
+    "respuesta": "Real Madrid",
+    "incorrecta1": "FC Barcelona",
+    "incorrecta2": "Corinthians",
+    "incorrecta3": "Bayern Múnich"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Qué selección ha ganado más títulos en los Juegos Olímpicos de fútbol?",
+    "respuesta": "Reino Unido",
+    "incorrecta1": "Brasil",
+    "incorrecta2": "Argentina",
+    "incorrecta3": "Alemania"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Qué selección ha ganado más títulos en la Copa Africana de Naciones?",
+    "respuesta": "Egipto",
+    "incorrecta1": "Camerún",
+    "incorrecta2": "Nigeria",
+    "incorrecta3": "Ghana"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Qué país ha ganado más títulos en la Copa Asiática?",
+    "respuesta": "Irak",
+    "incorrecta1": "Japón",
+    "incorrecta2": "Corea del Sur",
+    "incorrecta3": "Arabia Saudita"
+},
+{
+    "categoria": "Competiciones Internacionales",
+    "pregunta": "¿Qué selección ha ganado más títulos en la Copa de Oro de la Concacaf?",
+    "respuesta": "México",
+    "incorrecta1": "Estados Unidos",
+    "incorrecta2": "Costa Rica",
+    "incorrecta3": "Honduras"
 }
 
 
