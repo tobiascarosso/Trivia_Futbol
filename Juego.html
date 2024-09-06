@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
 </head>
 <body class="cuerpo">
+    <!-- <div class="cuadrotexto">
+        <div class="categoria" id="categoria"></div>
+        <div class="pregunta" id="pregunta"></div>
+        <img src="" class="imagen" id="imagen">
+        <div class="boton" id="boton1"></div>
+        <div class="boton" id="boton2"></div>
+        <div class="boton" id="boton3"></div>
+        <div class="boton" id="boton4"></div>
+    </div> -->
+
     <div class="cuadrotexto">
-        <div class="pregunta">
-            pregunta
-        </div>
-        <img src="" class="imagen">
-        <div class="boton" id="boton1">
-            respuesta 1
-        </div>
-        <div class="boton" id="boton2">
-            respuesta 2
-        </div>
-        <div class="boton" id="boton3">
-            respuesta 3
-        </div>
-        <div class="boton" id="boton4">
-            respuesta 4
-        </div>
+        <div class="categoria" id="categoria"></div>
+        <div class="pregunta" id="pregunta"></div>
+        <img src="" class="imagen" id="imagen">
+        <div class="boton" id="boton1" onclick="seleccionarRespuesta(0)"></div>
+        <div class="boton" id="boton2" onclick="seleccionarRespuesta(1)"></div>
+        <div class="boton" id="boton3" onclick="seleccionarRespuesta(2)"></div>
+        <div class="boton" id="boton4" onclick="seleccionarRespuesta(3)"></div>
+        <!-- Botón para continuar -->
+        <button id="continuar" style="display:none;" onclick="cargarNuevaPregunta()">Continuar</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
