@@ -248,19 +248,32 @@
 
 
 let respuestasMezcladas = [];
+let preguntas = [];
 
 // Cargar preguntas del JSON
 function cargarPreguntas() {
     fetch('Preguntas.json')
-        .then(response => response.json())
-        .then(preguntas => {
-            cargarNuevaPregunta(preguntas);
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            preguntas = data;
+            cargarNuevaPregunta();
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
 }
 
 // Cargar una nueva pregunta aleatoria
-function cargarNuevaPregunta(preguntas) {
+function cargarNuevaPregunta() {
+    // Verificar si hay preguntas cargadas
+    if (preguntas.length === 0) {
+        console.error('No hay preguntas disponibles.');
+        return;
+    }
+
     // Ocultar el botón de continuar
     document.getElementById('continuar').style.display = 'none';
 
@@ -275,11 +288,10 @@ function cargarNuevaPregunta(preguntas) {
     document.getElementById('categoria').textContent = pregunta.categoria;
     document.getElementById('pregunta').textContent = pregunta.pregunta;
     if (pregunta.imagen) {
-                          document.getElementById('imagen').src = pregunta.imagen;
-                          } 
-      else {
-            document.getElementById('imagen').src = 'fotos_Preguntas/madelynsarah.jpg'; // Si no hay imagen, puedes dejar en blanco o poner una imagen por defecto.
-            }
+        document.getElementById('imagen').src = pregunta.imagen;
+    } else {
+        document.getElementById('imagen').src = 'fotos_Preguntas/madelynsarah.jpg'; // Imagen por defecto
+    }
 
     // Mezclar respuestas
     respuestasMezcladas = [
@@ -313,3 +325,4 @@ function seleccionarRespuesta(indice) {
 
 // Inicializar la primera pregunta
 cargarPreguntas();
+
