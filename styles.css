@@ -206,5 +206,18 @@
   transform: scale(1.05);
   transition: 0.3s;
 }
-      
+
+.pie-pag {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    text-align: center;
+    background-color: rgb(3, 54, 101);
     
+    color: white;
+    text-align: center; 
+    padding: 10px;
+    width: 100%;
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+}
