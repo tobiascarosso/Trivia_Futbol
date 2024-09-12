@@ -247,8 +247,105 @@
 
 
 
+// let respuestasMezcladas = [];
+// let preguntas = [];
+
+// // Cargar preguntas del JSON
+// function cargarPreguntas() {
+//     fetch('Preguntas.json')
+//         .then(response => {
+//             if (!response.ok) {
+//                 throw new Error('Network response was not ok');
+//             }
+//             return response.json();
+//         })
+//         .then(data => {
+//             preguntas = data;
+//             cargarNuevaPregunta();
+//         })
+//         .catch(error => console.error('Error al cargar el archivo JSON:', error));
+// }
+
+// // Cargar una nueva pregunta aleatoria
+// function cargarNuevaPregunta() {
+//     // Verificar si hay preguntas cargadas
+//     if (preguntas.length === 0) {
+//         console.error('No hay preguntas disponibles.');
+//         return;
+//     }
+
+//     // Ocultar el botón de continuar
+//     document.getElementById('continuar').style.display = 'none';
+
+//     // Limpiar estilos de botones anteriores
+//     for (let i = 0; i < 4; i++) {
+//         document.getElementById(`boton${i + 1}`).style.backgroundColor = ''; // resetear el color de fondo
+//     }
+
+//     const pregunta = preguntas[Math.floor(Math.random() * preguntas.length)];
+
+//     // Mostrar categoría, pregunta e imagen
+//     document.getElementById('categoria').textContent = pregunta.categoria;
+//     document.getElementById('pregunta').textContent = pregunta.pregunta;
+//     if (pregunta.imagen) {
+//         document.getElementById('imagen').src = pregunta.imagen;
+//     } else {
+//         document.getElementById('imagen').src = 'fotos_Preguntas/madelynsarah.jpg'; // Imagen por defecto
+//     }
+
+//     // Mezclar respuestas
+//     respuestasMezcladas = [
+//         { texto: pregunta.respuesta, correcta: true },
+//         { texto: pregunta.incorrecta1, correcta: false },
+//         { texto: pregunta.incorrecta2, correcta: false },
+//         { texto: pregunta.incorrecta3, correcta: false }
+//     ];
+//     respuestasMezcladas.sort(() => Math.random() - 0.5);
+
+//     // Asignar respuestas a los botones
+//     document.getElementById('boton1').textContent = respuestasMezcladas[0].texto;
+//     document.getElementById('boton2').textContent = respuestasMezcladas[1].texto;
+//     document.getElementById('boton3').textContent = respuestasMezcladas[2].texto;
+//     document.getElementById('boton4').textContent = respuestasMezcladas[3].texto;
+// }
+
+// // Manejar la selección de respuestas
+// function seleccionarRespuesta(indice) {
+//     // Resalta el botón clickeado
+//     const boton = document.getElementById(`boton${indice + 1}`);
+//     if (respuestasMezcladas[indice].correcta) {
+//         boton.style.backgroundColor = 'green';  // respuesta correcta
+//     } else {
+//         boton.style.backgroundColor = 'red';    // respuesta incorrecta
+//     }
+
+//     // Mostrar el botón de continuar
+//     document.getElementById('continuar').style.display = 'block';
+// }
+
+// // Inicializar la primera pregunta
+// cargarPreguntas();
+
+//----------------------------------------------------------------------
+
+
+
+
+//                ██╗░░░██╗███████╗██████╗░░██████╗██╗░█████╗░███╗░░██╗  4      4
+//                ██║░░░██║██╔════╝██╔══██╗██╔════╝██║██╔══██╗████╗░██║  4      4
+//                ╚██╗░██╔╝█████╗░░██████╔╝╚█████╗░██║██║░░██║██╔██╗██║  44444444
+//                ░╚████╔╝░██╔══╝░░██╔══██╗░╚═══██╗██║██║░░██║██║╚████║         4
+//                ░░╚██╔╝░░███████╗██║░░██║██████╔╝██║╚█████╔╝██║░╚███║         4
+//                ░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═════╝░╚═╝░╚════╝░╚═╝░░╚══╝         4
+
+
+
+//----------------------------------------------------------------------
+
+
 let respuestasMezcladas = [];
 let preguntas = [];
+let respuestaSeleccionada = null; // Variable para almacenar la opción seleccionada
 
 // Cargar preguntas del JSON
 function cargarPreguntas() {
@@ -279,7 +376,10 @@ function cargarNuevaPregunta() {
 
     // Limpiar estilos de botones anteriores
     for (let i = 0; i < 4; i++) {
-        document.getElementById(`boton${i + 1}`).style.backgroundColor = ''; // resetear el color de fondo
+        const boton = document.getElementById(`boton${i + 1}`);
+        boton.style.backgroundColor = ''; // resetear el color de fondo
+        boton.onclick = () => seleccionarRespuesta(i); // reactivar los botones
+        boton.style.pointerEvents = 'auto'; // habilitar clics de nuevo
     }
 
     const pregunta = preguntas[Math.floor(Math.random() * preguntas.length)];
@@ -307,16 +407,39 @@ function cargarNuevaPregunta() {
     document.getElementById('boton2').textContent = respuestasMezcladas[1].texto;
     document.getElementById('boton3').textContent = respuestasMezcladas[2].texto;
     document.getElementById('boton4').textContent = respuestasMezcladas[3].texto;
+
+    respuestaSeleccionada = null; // Reiniciar selección de respuesta
 }
 
 // Manejar la selección de respuestas
 function seleccionarRespuesta(indice) {
+    if (respuestaSeleccionada !== null) {
+        return; // Si ya hay una respuesta seleccionada, no permitir más selecciones
+    }
+
+    respuestaSeleccionada = indice;
+
     // Resalta el botón clickeado
     const boton = document.getElementById(`boton${indice + 1}`);
     if (respuestasMezcladas[indice].correcta) {
         boton.style.backgroundColor = 'green';  // respuesta correcta
     } else {
         boton.style.backgroundColor = 'red';    // respuesta incorrecta
+
+        // Buscar y resaltar la respuesta correcta
+        for (let i = 0; i < 4; i++) {
+            if (respuestasMezcladas[i].correcta) {
+                document.getElementById(`boton${i + 1}`).style.backgroundColor = 'green';  // marcar la correcta
+                break;
+            }
+        }
+    }
+
+    // Deshabilitar los otros botones
+    for (let i = 0; i < 4; i++) {
+        const botonActual = document.getElementById(`boton${i + 1}`);
+        botonActual.onclick = null; // Eliminar el evento onclick de los botones
+        botonActual.style.pointerEvents = 'none'; // Deshabilitar clics
     }
 
     // Mostrar el botón de continuar
