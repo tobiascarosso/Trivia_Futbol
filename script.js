@@ -345,6 +345,7 @@
 
 let respuestasMezcladas = [];
 let preguntas = [];
+let preguntasVistas = []; // Array para mantener un registro de las preguntas ya vistas
 let respuestaSeleccionada = null; // Variable para almacenar la opción seleccionada
 
 // Cargar preguntas del JSON
@@ -363,13 +364,35 @@ function cargarPreguntas() {
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
 }
 
+// Actualizar el contador de preguntas vistas y no vistas
+function actualizarContador() {
+    const totalPreguntas = preguntas.length;
+    const vistas = preguntasVistas.length;
+    const noVistas = totalPreguntas - vistas;
+    document.getElementById('contador').textContent = `${vistas}/${totalPreguntas}`;
+}
+
 // Cargar una nueva pregunta aleatoria
 function cargarNuevaPregunta() {
-    // Verificar si hay preguntas cargadas
+    // Verificar si hay preguntas disponibles
     if (preguntas.length === 0) {
         console.error('No hay preguntas disponibles.');
         return;
     }
+
+    // Seleccionar una nueva pregunta que no haya sido vista
+    let pregunta;
+    if (preguntas.length === preguntasVistas.length) {
+        console.log('Todas las preguntas han sido vistas.');
+        return; // O manejar de alguna otra manera si se han visto todas las preguntas
+    }
+
+    do {
+        pregunta = preguntas[Math.floor(Math.random() * preguntas.length)];
+    } while (preguntasVistas.includes(pregunta));
+
+    // Marcar la pregunta como vista
+    preguntasVistas.push(pregunta);
 
     // Ocultar el botón de continuar
     document.getElementById('continuar').style.display = 'none';
@@ -381,8 +404,6 @@ function cargarNuevaPregunta() {
         boton.onclick = () => seleccionarRespuesta(i); // reactivar los botones
         boton.style.pointerEvents = 'auto'; // habilitar clics de nuevo
     }
-
-    const pregunta = preguntas[Math.floor(Math.random() * preguntas.length)];
 
     // Mostrar categoría, pregunta e imagen
     document.getElementById('categoria').textContent = pregunta.categoria;
@@ -409,6 +430,9 @@ function cargarNuevaPregunta() {
     document.getElementById('boton4').textContent = respuestasMezcladas[3].texto;
 
     respuestaSeleccionada = null; // Reiniciar selección de respuesta
+
+    // Actualizar el contador de preguntas vistas y no vistas
+    actualizarContador();
 }
 
 // Manejar la selección de respuestas
@@ -448,4 +472,3 @@ function seleccionarRespuesta(indice) {
 
 // Inicializar la primera pregunta
 cargarPreguntas();
-

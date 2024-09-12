@@ -172,7 +172,7 @@
       .loading-element {
         animation: slideIn 0.5s ease-out;
       }
-/* 
+
     @keyframes bounce {
         0%, 100% {
           transform: scale(1);
@@ -198,11 +198,7 @@
       
       .button:active {
         animation: bounce 0.3s ease;
-      } */
-
-
-
-
+      }
 .pregunta{
   padding: 10px;
 }
@@ -227,4 +223,15 @@
   transition: 0.3s;
 }
       
-    
+.contador {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 10px;
+}   
+.categoria {
+    color: #ffff; 
+}
+
+.pregunta {
+    color: #ffff; 
+}
