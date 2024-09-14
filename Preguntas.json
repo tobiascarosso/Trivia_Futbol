@@ -6,7 +6,8 @@
     "respuesta": "Gonzalo Higuaín",
     "incorrecta1": "Lautaro Martínez",
     "incorrecta2": "Francesco Totti",
-    "incorrecta3": "Gabriel Batistuta"
+    "incorrecta3": "Gabriel Batistuta",
+    "imagen": "/fotos_Preguntas/serie_A_Italiana"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -65,12 +66,12 @@
     "incorrecta3": "Diego Maradona"
 },
 {
-    "categoria": "Estadísticas y Récords",
-    "pregunta": "¿Qué selección ha ganado más títulos de la Copa América?",
-    "respuesta": "Uruguay",
-    "incorrecta1": "Argentina",
-    "incorrecta2": "Brasil",
-    "incorrecta3": "Chile"
+"categoria": "Estadísticas y Récords",
+"pregunta": "¿Qué selección ha ganado más títulos de la Copa América?",
+"respuesta": "Uruguay",
+"incorrecta1": "Argentina",
+"incorrecta2": "Brasil",
+"incorrecta3": "Chile"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -142,7 +143,7 @@
     "respuesta": "Cilindro de Avellaneda",
     "incorrecta1": "Libertadores de América",
     "incorrecta2": "La Bombonera",
-    "incorrecta3": "Monumental de Núñez"
+    "incorrecta3": "El Monumental"
 },
 {
     "categoria": "Estadios",
@@ -267,9 +268,9 @@
 {
     "categoria": "Jugadores",
     "pregunta": "¿Quién es el máximo goleador histórico de la selección brasileña?",
-    "respuesta": "Pelé",
+    "respuesta": "Neymar",
     "incorrecta1": "Ronaldo Nazário",
-    "incorrecta2": "Neymar",
+    "incorrecta2": "Pelé",
     "incorrecta3": "Romário"
 },
 {
@@ -419,18 +420,10 @@
 {
     "categoria": "Competiciones Internacionales",
     "pregunta": "¿Qué selección ha ganado más títulos en la Copa América?",
-    "respuesta": "Uruguay",
+    "respuesta": "Argentina",
     "incorrecta1": "Brasil",
-    "incorrecta2": "Argentina",
+    "incorrecta2": "Uruguay",
     "incorrecta3": "Chile"
-},
-{
-    "categoria": "Competiciones Internacionales",
-    "pregunta": "¿Qué selección ha ganado más títulos en la Eurocopa?",
-    "respuesta": "Alemania",
-    "incorrecta1": "Francia",
-    "incorrecta2": "Italia",
-    "incorrecta3": "España"
 },
 {
     "categoria": "Competiciones Internacionales",
@@ -475,8 +468,8 @@
 {
     "categoria": "Competiciones Internacionales",
     "pregunta": "¿Qué país ha ganado más títulos en la Copa Asiática?",
-    "respuesta": "Irak",
-    "incorrecta1": "Japón",
+    "respuesta": "Japón",
+    "incorrecta1": "Irak",
     "incorrecta2": "Corea del Sur",
     "incorrecta3": "Arabia Saudita"
 },
@@ -488,7 +481,4 @@
     "incorrecta2": "Costa Rica",
     "incorrecta3": "Honduras"
 }
-
-
-
 ]
