@@ -13,8 +13,8 @@
     <script src="https://kit.fontawesome.com/8ca6fcbba1.js" crossorigin="anonymous"></script>
 </head>
 <body class="cuerpo">
-    <div class="cuadrotexto">
-        <div id="contador" class="contador"></div> <!-- Elemento para mostrar el contador -->
+    <div class="cuadrotexto" id="contenido">
+        <div id="contador" class="contador"></div>
         <div class="categoria" id="categoria"></div>
         <div class="pregunta" id="pregunta"></div>
         <img src="" class="imagen" id="imagen">
@@ -22,12 +22,24 @@
         <div class="boton" id="boton2" onclick="seleccionarRespuesta(1)"></div>
         <div class="boton" id="boton3" onclick="seleccionarRespuesta(2)"></div>
         <div class="boton" id="boton4" onclick="seleccionarRespuesta(3)"></div>
-        <!-- Botón para continuar -->
         <div class="button-container">
             <button class="button" id="continuar" style="display:none;" onclick="cargarNuevaPregunta()">Continuar</button>
         </div>
     </div>
-    
+    <div class="cuadrotexto" id="finalizado" style="display: none;">
+        <img src="Imagen-Finalizado.png" alt="Finalizado">
+        <div class="button-container">
+            <button class="button" id="verResultado" onclick="verResultado()">Ver mi resultado</button>
+        </div>
+    </div>
+    <div class="cuadrotexto" id="resultados" style="display: none;">
+        <h2>Resultados del Juego</h2>
+        <p id="resultado-correctas">Respuestas Correctas: 0</p>
+        <p id="resultado-incorrectas">Respuestas Incorrectas: 0</p>
+        <div class="button-container">
+            <button class="button" id="volverInicio" onclick="volverAlInicio()">Volver al Inicio</button>
+        </div>
+    </div>
     <footer>
         <div class="pie-pag">
             <p>&copy; 2024 Trivia de Fútbol. Todos los derechos reservados.</p>
@@ -35,7 +47,7 @@
             <div class="social-icons">
                 <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://github.com/tobiascarosso/Trivia_Futbol.git" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="mailto:sscotton@lasalleflorida.edu.ar" target="_blank"><i class="fa-solid fa-envelope"></i></i></a>
+                <a href="mailto:sscotton@lasalleflorida.edu.ar" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </div>
     </footer>

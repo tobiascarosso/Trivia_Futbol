@@ -347,6 +347,8 @@ let respuestasMezcladas = [];
 let preguntas = [];
 let preguntasVistas = []; // Array para mantener un registro de las preguntas ya vistas
 let respuestaSeleccionada = null; // Variable para almacenar la opción seleccionada
+let preguntasAcertadas = 0; // Contador de preguntas acertadas
+let preguntasErradas = 0; // Contador de preguntas erradas
 
 // Cargar preguntas del JSON
 function cargarPreguntas() {
@@ -374,9 +376,9 @@ function actualizarContador() {
 
 // Cargar una nueva pregunta aleatoria
 function cargarNuevaPregunta() {
-    // Verificar si hay preguntas disponibles
-    if (preguntas.length === 0) {
-        console.error('No hay preguntas disponibles.');
+    // Verificar si se completaron todas las preguntas
+    if (preguntasVistas.length >= 60) {
+        mostrarResultadosFinales();
         return;
     }
 
@@ -447,8 +449,10 @@ function seleccionarRespuesta(indice) {
     const boton = document.getElementById(`boton${indice + 1}`);
     if (respuestasMezcladas[indice].correcta) {
         boton.style.backgroundColor = 'green';  // respuesta correcta
+        preguntasAcertadas++; // Incrementar contador de respuestas correctas
     } else {
         boton.style.backgroundColor = 'red';    // respuesta incorrecta
+        preguntasErradas++; // Incrementar contador de respuestas erradas
 
         // Buscar y resaltar la respuesta correcta
         for (let i = 0; i < 4; i++) {
@@ -461,14 +465,36 @@ function seleccionarRespuesta(indice) {
 
     // Deshabilitar los otros botones
     for (let i = 0; i < 4; i++) {
-        const botonActual = document.getElementById(`boton${i + 1}`);
-        botonActual.onclick = null; // Eliminar el evento onclick de los botones
-        botonActual.style.pointerEvents = 'none'; // Deshabilitar clics
+        if (i !== indice) {
+            document.getElementById(`boton${i + 1}`).style.pointerEvents = 'none'; // deshabilitar clics
+        }
     }
 
     // Mostrar el botón de continuar
     document.getElementById('continuar').style.display = 'block';
 }
 
-// Inicializar la primera pregunta
+// Mostrar resultados finales
+function mostrarResultadosFinales() {
+    document.getElementById('contenido').style.display = 'none';
+    document.getElementById('finalizado').style.display = 'block';
+    document.getElementById('boton-ver-resultados').style.display = 'block'; // Mostrar el botón de "Ver Mis Resultados"
+    // Aquí no se muestra el botón "Volver al Inicio"
+}
+
+// Ver resultados
+function verResultado() {
+    document.getElementById('finalizado').style.display = 'none';
+    document.getElementById('resultados').style.display = 'block';
+    document.getElementById('resultado-correctas').textContent = `Respuestas Correctas: ${preguntasAcertadas}`;
+    document.getElementById('resultado-incorrectas').textContent = `Respuestas Incorrectas: ${preguntasErradas}`;
+    document.getElementById('boton-volver-inicio').style.display = 'block'; // Mostrar el botón "Volver al Inicio"
+}
+
+// Volver al inicio
+function volverAlInicio() {
+    location.href = 'index.html';
+}
+
+// Iniciar el juego
 cargarPreguntas();

@@ -1,8 +1,9 @@
-*{
+* {
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 .cuerpo {
     background-image: url(FondoPP.jpeg);
     background-repeat: no-repeat;
@@ -34,6 +35,7 @@
     margin: auto;
     animation: slideIn 0.5s ease-out;
     box-sizing: border-box; 
+    overflow: hidden; /* Oculta cualquier contenido que sobresalga */
 }
 
 @media (max-width: 768px) {
@@ -69,6 +71,7 @@
     align-items: center;
     margin-top: 20px;
     height: 100%; 
+    gap: 25px;
 }
 
 .boton-play {
@@ -138,76 +141,80 @@
         transform: scale3d(1, 1, 1);
     }
 }
-    @keyframes slideIn {
-        from {
-          transform: translateX(-100%);
-          opacity: 0;
-        }
-        to {
-          transform: translateX(0);
-          opacity: 1;
-        }
-      }
-      
-      .loading-element {
-        animation: slideIn 0.5s ease-out;
-      }
 
-    @keyframes bounce {
-        0%, 100% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.1);
-        }
-      }
-      
-      .button {
-        padding: 10px 20px;
-        background-color: #ff6347;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-      
-      .button:hover {
-        background-color: #ff4500;
-      }
-      
-      .button:active {
-        animation: bounce 0.3s ease;
-      }
-.pregunta{
-  padding: 10px;
-}
-.imagen{
-  object-fit: cover;
-  height: 200px;
-  width: 100%;
-}
-.boton{
-  background-color: grey;
-  border-radius: 10px;
-  border-color: rgb(78, 78, 78);
-  width: 60%;
-  padding: 10px;
-  margin: 5px;
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
-.boton:hover{
-  background-color: lightblue;
-  cursor: pointer;
-  transform: scale(1.05);
-  transition: 0.3s;
+.loading-element {
+    animation: slideIn 0.5s ease-out;
 }
-      
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff4500;
+}
+
+.button:active {
+    animation: bounce 0.3s ease;
+}
+
+.pregunta {
+    padding: 10px;
+}
+
+.imagen {
+    object-fit: cover;
+    width: 100%;
+}
+
+.boton {
+    background-color: grey;
+    border-radius: 10px;
+    border-color: rgb(78, 78, 78);
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.boton:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 .contador {
     font-size: 1.2rem;
     color: #ffffff;
     margin-bottom: 10px;
 }   
+
 .categoria {
     color: #ffff; 
 }
@@ -271,3 +278,37 @@ footer {
     transform: scale(1.2);
 }
 
+#resultados {
+    display: none; /* Asegúrate de que esté oculto inicialmente */
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff4500;
+}
+
+.button:active {
+    animation: bounce 0.3s ease;
+}
+
+.cuadrotexto img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio en blanco debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen si es más pequeña que el contenedor */
+}
