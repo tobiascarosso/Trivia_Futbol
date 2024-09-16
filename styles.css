@@ -1,3 +1,8 @@
+*{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 .cuerpo {
     background-image: url(FondoPP.jpeg);
     background-repeat: no-repeat;
@@ -14,6 +19,10 @@
 }
 
 .cuadrotexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80%; 
     max-width: 600px;
     padding: 20px;
@@ -129,19 +138,6 @@
         transform: scale3d(1, 1, 1);
     }
 }
-        
-.cuadrotexto{
-        width: 80%;
-        max-width: 600px;
-        padding: 20px;
-        background-color: #4c666b70;
-        border: 1px solid #000000;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 2, 0.1);
-        text-align: center;
-        margin: auto;
-        animation: slideIn 0.5s ease-out;
-    }
     @keyframes slideIn {
         from {
           transform: translateX(-100%);
@@ -209,7 +205,7 @@
       
 .contador {
     font-size: 1.2rem;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 10px;
 }   
 .categoria {
@@ -242,12 +238,12 @@ footer {
 
 .pie-pag p {
     margin: 0;
-    flex: 1; /* El texto de copyright ocupará el espacio disponible */
-    text-align: left; /* Alineado a la izquierda */
+    flex: 1; 
+    text-align: left;
 }
 
 .pie-pag img {
-    width: 100%px; /* Tamaño más pequeño para la imagen */
+    width: 100%; 
     display: block;
     margin: 0 auto;
 }
@@ -261,7 +257,7 @@ footer {
 
 .pie-pag a {
     display: inline-block;
-    margin-left: 15px; /* Espacio entre los íconos */
+    margin-left: 15px; 
 }
 
 .pie-pag a i {
