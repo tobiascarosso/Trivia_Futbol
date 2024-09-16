@@ -7,7 +7,7 @@
     "incorrecta1": "Lautaro Martínez",
     "incorrecta2": "Francesco Totti",
     "incorrecta3": "Gabriel Batistuta",
-    "imagen": "/fotos_Preguntas/serie_A_Italiana"
+    "imagen": "/fotos_Preguntas/serie_A_Italiana.jpg"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -15,7 +15,8 @@
     "respuesta": "Alan Shearer",
     "incorrecta1": "Thierry Henry",
     "incorrecta2": "Wayne Rooney",
-    "incorrecta3": "Sergio Agüero"
+    "incorrecta3": "Sergio Agüero",
+    "imagen": "/fotos_Preguntas/PremierLeague.jpg"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -23,7 +24,8 @@
     "respuesta": "Real Madrid",
     "incorrecta1": "FC Barcelona",
     "incorrecta2": "AC Milan",
-    "incorrecta3": "Bayern Múnich"
+    "incorrecta3": "Bayern Múnich",
+    "imagen": "/fotos_Preguntas/championsleague.jpg"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -31,7 +33,8 @@
     "respuesta": "Cristiano Ronaldo",
     "incorrecta1": "Lionel Messi",
     "incorrecta2": "Iker Casillas",
-    "incorrecta3": "Xavi Hernández"
+    "incorrecta3": "Xavi Hernández",
+    "imagen": "/fotos_Preguntas/championsleague.jpg"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -39,7 +42,8 @@
     "respuesta": "Brasil",
     "incorrecta1": "Alemania",
     "incorrecta2": "Italia",
-    "incorrecta3": "Argentina"
+    "incorrecta3": "Argentina",
+    "imagen": "/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -47,7 +51,8 @@
     "respuesta": "Miroslav Klose",
     "incorrecta1": "Pelé",
     "incorrecta2": "Ronaldo Nazário",
-    "incorrecta3": "Gerd Müller"
+    "incorrecta3": "Gerd Müller",
+    "imagen": "/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -55,7 +60,8 @@
     "respuesta": "River Plate",
     "incorrecta1": "Boca Juniors",
     "incorrecta2": "Independiente",
-    "incorrecta3": "Racing Club"
+    "incorrecta3": "Racing Club",
+    "imagen": "/fotos_Preguntas/argentina.jpg"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -63,7 +69,8 @@
     "respuesta": "Lionel Messi",
     "incorrecta1": "Gabriel Batistuta",
     "incorrecta2": "Sergio Agüero",
-    "incorrecta3": "Diego Maradona"
+    "incorrecta3": "Diego Maradona",
+    "imagen": "/fotos_Preguntas/argentina.jpg"
 },
 {
 "categoria": "Estadísticas y Récords",
@@ -71,7 +78,8 @@
 "respuesta": "Uruguay",
 "incorrecta1": "Argentina",
 "incorrecta2": "Brasil",
-"incorrecta3": "Chile"
+"incorrecta3": "Chile",
+"imagen": "/fotos_Preguntas/copaamerica.jpg"
 },
 {
     "categoria": "Estadísticas y Récords",
@@ -79,7 +87,8 @@
     "respuesta": "Cristiano Ronaldo",
     "incorrecta1": "Raúl González",
     "incorrecta2": "Alfredo Di Stéfano",
-    "incorrecta3": "Karim Benzema"
+    "incorrecta3": "Karim Benzema",
+    "imagen": "/fotos_Preguntas/realmadrid.jpg"
 },
 {
     "categoria": "Estadios",
@@ -95,7 +104,8 @@
     "respuesta": "Maracaná",
     "incorrecta1": "Morumbi",
     "incorrecta2": "Mineirão",
-    "incorrecta3": "Beira-Rio"
+    "incorrecta3": "Beira-Rio",
+    "imagen": "/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Estadios",
@@ -119,7 +129,8 @@
     "respuesta": "Maracaná",
     "incorrecta1": "Arena Corinthians",
     "incorrecta2": "Estadio Nacional de Brasilia",
-    "incorrecta3": "Mineirão"
+    "incorrecta3": "Mineirão",
+    "imagen": "/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Estadios",
@@ -127,7 +138,8 @@
     "respuesta": "Estadio Azteca",
     "incorrecta1": "Estadio Jalisco",
     "incorrecta2": "Estadio BBVA",
-    "incorrecta3": "Estadio Olímpico Universitario"
+    "incorrecta3": "Estadio Olímpico Universitario",
+    "imagen": "/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Estadios",
@@ -159,7 +171,8 @@
     "respuesta": "Wanda Metropolitano",
     "incorrecta1": "Parc des Princes",
     "incorrecta2": "San Siro",
-    "incorrecta3": "Allianz Arena"
+    "incorrecta3": "Allianz Arena",
+    "imagen":"/fotos_Preguntas/championsleague.jpg"
 },
 {
     "categoria": "Entrenadores",
@@ -167,7 +180,8 @@
     "respuesta": "Pep Guardiola",
     "incorrecta1": "Frank Rijkaard",
     "incorrecta2": "Luis Enrique",
-    "incorrecta3": "Johan Cruyff"
+    "incorrecta3": "Johan Cruyff",
+    "imagen":"/fotos_Preguntas/barcelona.jpg"
 },
 {
     "categoria": "Entrenadores",
@@ -175,7 +189,8 @@
     "respuesta": "Carlo Ancelotti",
     "incorrecta1": "Zinedine Zidane",
     "incorrecta2": "Pep Guardiola",
-    "incorrecta3": "Alex Ferguson"
+    "incorrecta3": "Alex Ferguson",
+    "imagen":"/fotos_Preguntas/championsleague.jpg"
 },
 {
     "categoria": "Entrenadores",
@@ -183,7 +198,8 @@
     "respuesta": "Diego Simeone",
     "incorrecta1": "Luis Aragonés",
     "incorrecta2": "Radomir Antić",
-    "incorrecta3": "Gregorio Manzano"
+    "incorrecta3": "Gregorio Manzano",
+    "imagen": "/fotos_Preguntas/championsleague.jpg"
 },
 {
     "categoria": "Entrenadores",
@@ -191,7 +207,8 @@
     "respuesta": "Joachim Löw",
     "incorrecta1": "Jürgen Klinsmann",
     "incorrecta2": "Franz Beckenbauer",
-    "incorrecta3": "Ottmar Hitzfeld"
+    "incorrecta3": "Ottmar Hitzfeld",
+    "imagen":"/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Entrenadores",
@@ -199,7 +216,8 @@
     "respuesta": "Marcelo Gallardo",
     "incorrecta1": "Ramón Díaz",
     "incorrecta2": "Carlos Bianchi",
-    "incorrecta3": "Manuel Pellegrini"
+    "incorrecta3": "Manuel Pellegrini",
+    "imagen":"/fotos_Preguntas/libertadores.jpg"
 },
 {
     "categoria": "Entrenadores",
@@ -207,7 +225,8 @@
     "respuesta": "Alex Ferguson",
     "incorrecta1": "Matt Busby",
     "incorrecta2": "David Moyes",
-    "incorrecta3": "Ryan Giggs"
+    "incorrecta3": "Ryan Giggs",
+    "imagen":"/fotos_Preguntas/manchesterunited.jpg"
 },
 {
     "categoria": "Entrenadores",
@@ -215,7 +234,8 @@
     "respuesta": "Luis Aragonés",
     "incorrecta1": "Vicente del Bosque",
     "incorrecta2": "Julen Lopetegui",
-    "incorrecta3": "Fernando Hierro"
+    "incorrecta3": "Fernando Hierro",
+    "imagen":"/fotos_Preguntas/eurocopa.jpg"
 },
 {
     "categoria": "Entrenadores",
@@ -223,7 +243,8 @@
     "respuesta": "Claudio Ranieri",
     "incorrecta1": "Nigel Pearson",
     "incorrecta2": "Brendan Rodgers",
-    "incorrecta3": "Roberto Mancini"
+    "incorrecta3": "Roberto Mancini",
+    "imagen": "/fotos_Preguntas/PremierLeague.jpg"
 },
 {
     "categoria": "Entrenadores",
@@ -239,7 +260,8 @@
     "respuesta": "Aimé Jacquet",
     "incorrecta1": "Didier Deschamps",
     "incorrecta2": "Raymond Domenech",
-    "incorrecta3": "Laurent Blanc"
+    "incorrecta3": "Laurent Blanc",
+    "imagen":"/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Jugadores",
@@ -247,7 +269,8 @@
     "respuesta": "Cristiano Ronaldo",
     "incorrecta1": "Lionel Messi",
     "incorrecta2": "Robert Lewandowski",
-    "incorrecta3": "Raúl González"
+    "incorrecta3": "Raúl González",
+    "imagen": "/fotos_Preguntas/championsleague.jpg"
 },
 {
     "categoria": "Jugadores",
@@ -255,7 +278,8 @@
     "respuesta": "Lionel Messi",
     "incorrecta1": "Cristiano Ronaldo",
     "incorrecta2": "Michel Platini",
-    "incorrecta3": "Johan Cruyff"
+    "incorrecta3": "Johan Cruyff",
+    "imagen":"/fotos_Preguntas/balonoro.jpg"
 },
 {
     "categoria": "Jugadores",
@@ -335,7 +359,8 @@
     "respuesta": "Uruguay",
     "incorrecta1": "Brasil",
     "incorrecta2": "Argentina",
-    "incorrecta3": "Italia"
+    "incorrecta3": "Italia",
+    "imagen": "/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Historia del Fútbol",
@@ -343,7 +368,8 @@
     "respuesta": "Peñarol",
     "incorrecta1": "Boca Juniors",
     "incorrecta2": "Santos",
-    "incorrecta3": "Independiente"
+    "incorrecta3": "Independiente",
+    "imagen": "/fotos_Preguntas/libertadores.jpg"
 },
 {
     "categoria": "Historia del Fútbol",
@@ -351,7 +377,8 @@
     "respuesta": "Brasil",
     "incorrecta1": "Argentina",
     "incorrecta2": "Alemania",
-    "incorrecta3": "Italia"
+    "incorrecta3": "Italia",
+    "imagen":"/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Historia del Fútbol",
@@ -359,7 +386,8 @@
     "respuesta": "Real Madrid",
     "incorrecta1": "Benfica",
     "incorrecta2": "AC Milan",
-    "incorrecta3": "Manchester United"
+    "incorrecta3": "Manchester United",
+    "imagen":"/fotos_Preguntas/championsleague.jpg"
 },
 {
     "categoria": "Historia del Fútbol",
@@ -367,7 +395,8 @@
     "respuesta": "Manchester United",
     "incorrecta1": "Leeds United",
     "incorrecta2": "Arsenal",
-    "incorrecta3": "Blackburn Rovers"
+    "incorrecta3": "Blackburn Rovers",
+    "imagen":"/fotos_Preguntas/championsleague.jpg"
 },
 {
     "categoria": "Historia del Fútbol",
@@ -375,7 +404,8 @@
     "respuesta": "Francia",
     "incorrecta1": "Brasil",
     "incorrecta2": "Alemania",
-    "incorrecta3": "Argentina"
+    "incorrecta3": "Argentina",
+    "imagen":"/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Historia del Fútbol",
@@ -383,7 +413,8 @@
     "respuesta": "España",
     "incorrecta1": "Francia",
     "incorrecta2": "Alemania",
-    "incorrecta3": "Italia"
+    "incorrecta3": "Italia",
+    "imagen":"/fotos_Preguntas/eurocopa.jpg"
 },
 {
     "categoria": "Historia del Fútbol",
@@ -391,7 +422,8 @@
     "respuesta": "1899",
     "incorrecta1": "1902",
     "incorrecta2": "1910",
-    "incorrecta3": "1923"
+    "incorrecta3": "1923",
+    "imagen":"/fotos_Preguntas/barcelona.jpg"
 },
 {
     "categoria": "Historia del Fútbol",
@@ -407,7 +439,8 @@
     "respuesta": "Brasil",
     "incorrecta1": "Alemania",
     "incorrecta2": "Argentina",
-    "incorrecta3": "Italia"
+    "incorrecta3": "Italia",
+    "imagen":"/fotos_Preguntas/mundial.jpg"
 },
 {
     "categoria": "Competiciones Internacionales",
@@ -415,7 +448,8 @@
     "respuesta": "Real Madrid",
     "incorrecta1": "AC Milan",
     "incorrecta2": "Barcelona",
-    "incorrecta3": "Liverpool"
+    "incorrecta3": "Liverpool",
+    "imagen":"/fotos_Preguntas/championsleague.jpg"
 },
 {
     "categoria": "Competiciones Internacionales",
@@ -423,7 +457,8 @@
     "respuesta": "Argentina",
     "incorrecta1": "Brasil",
     "incorrecta2": "Uruguay",
-    "incorrecta3": "Chile"
+    "incorrecta3": "Chile",
+    "imagen":"/fotos_Preguntas/copaamerica.jpg"
 },
 {
     "categoria": "Competiciones Internacionales",
@@ -431,7 +466,8 @@
     "respuesta": "Alemania",
     "incorrecta1": "Francia",
     "incorrecta2": "Italia",
-    "incorrecta3": "España"
+    "incorrecta3": "España",
+    "imagen":"/fotos_Preguntas/eurocopa.jpg"
 },
 {
     "categoria": "Competiciones Internacionales",
@@ -439,7 +475,8 @@
     "respuesta": "Club Atlético Independiente",
     "incorrecta1": "Boca Juniors",
     "incorrecta2": "River Plate",
-    "incorrecta3": "San Lorenzo"
+    "incorrecta3": "San Lorenzo",
+    "imagen":"/fotos_Preguntas/libertadores.jpg"
 },
 {
     "categoria": "Competiciones Internacionales",
@@ -455,7 +492,8 @@
     "respuesta": "Reino Unido",
     "incorrecta1": "Brasil",
     "incorrecta2": "Argentina",
-    "incorrecta3": "Alemania"
+    "incorrecta3": "Alemania",
+    "imagen":"/fotos_Preguntas/olimpicos.jpg"
 },
 {
     "categoria": "Competiciones Internacionales",
@@ -463,7 +501,8 @@
     "respuesta": "Egipto",
     "incorrecta1": "Camerún",
     "incorrecta2": "Nigeria",
-    "incorrecta3": "Ghana"
+    "incorrecta3": "Ghana",
+    "imagen":"/fotos_Preguntas/africana.jpg"
 },
 {
     "categoria": "Competiciones Internacionales",
@@ -471,7 +510,8 @@
     "respuesta": "Japón",
     "incorrecta1": "Irak",
     "incorrecta2": "Corea del Sur",
-    "incorrecta3": "Arabia Saudita"
+    "incorrecta3": "Arabia Saudita",
+    "imagen":"/fotos_Preguntas/asiatica.jpg"
 },
 {
     "categoria": "Competiciones Internacionales",
@@ -479,6 +519,7 @@
     "respuesta": "México",
     "incorrecta1": "Estados Unidos",
     "incorrecta2": "Costa Rica",
-    "incorrecta3": "Honduras"
+    "incorrecta3": "Honduras",
+    "imagen":"/fotos_Preguntas/concacaf.jpg"
 }
 ]

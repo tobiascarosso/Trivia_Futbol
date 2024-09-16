@@ -413,7 +413,7 @@ function cargarNuevaPregunta() {
     if (pregunta.imagen) {
         document.getElementById('imagen').src = pregunta.imagen;
     } else {
-        document.getElementById('imagen').src = 'fotos_Preguntas/madelynsarah.jpg'; // Imagen por defecto
+        document.getElementById('imagen').src = 'fotos_Preguntas/imagenxdefecto.jpg'; // Imagen por defecto
     }
 
     // Mezclar respuestas
