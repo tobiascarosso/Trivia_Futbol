@@ -130,7 +130,7 @@
     "incorrecta1": "Arena Corinthians",
     "incorrecta2": "Estadio Nacional de Brasilia",
     "incorrecta3": "Mineirão",
-    "imagen": "/fotos_Preguntas/mundial.jpg"
+    "imagen": "/fotos_Preguntas/mundial2014.jpg"
 },
 {
     "categoria": "Estadios",
@@ -147,7 +147,8 @@
     "respuesta": "Wembley",
     "incorrecta1": "Old Trafford",
     "incorrecta2": "Anfield",
-    "incorrecta3": "Emirates Stadium"
+    "incorrecta3": "Emirates Stadium",
+    "imagen": "/fotos_Preguntas/inglaterra.jpg"
 },
 {
     "categoria": "Estadios",
@@ -163,7 +164,8 @@
     "respuesta": "Allianz Arena",
     "incorrecta1": "Signal Iduna Park",
     "incorrecta2": "Olympiastadion",
-    "incorrecta3": "Mercedes-Benz Arena"
+    "incorrecta3": "Mercedes-Benz Arena",
+    "imagen": "/fotos_Preguntas/bayern.jpg"
 },
 {
     "categoria": "Estadios",
@@ -287,7 +289,8 @@
     "respuesta": "Ronaldo Nazário",
     "incorrecta1": "Ronaldinho",
     "incorrecta2": "Pelé",
-    "incorrecta3": "Zico"
+    "incorrecta3": "Zico",
+    "imagen": "/fotos_Preguntas/jugador.jpg"
 },
 {
     "categoria": "Jugadores",
@@ -295,7 +298,8 @@
     "respuesta": "Neymar",
     "incorrecta1": "Ronaldo Nazário",
     "incorrecta2": "Pelé",
-    "incorrecta3": "Romário"
+    "incorrecta3": "Romário",
+    "imagen":"/fotos_Preguntas/brasil.jpg"
 },
 {
     "categoria": "Jugadores",
@@ -303,7 +307,8 @@
     "respuesta": "Diego Maradona",
     "incorrecta1": "Gabriel Batistuta",
     "incorrecta2": "Javier Zanetti",
-    "incorrecta3": "Lionel Messi"
+    "incorrecta3": "Lionel Messi",
+    "imagen":"/fotos_Preguntas/jugador.jpg"
 },
 {
     "categoria": "Jugadores",
@@ -311,7 +316,8 @@
     "respuesta": "James Rodríguez",
     "incorrecta1": "Thomas Müller",
     "incorrecta2": "Lionel Messi",
-    "incorrecta3": "Neymar"
+    "incorrecta3": "Neymar",
+    "imagen":"/fotos_Preguntas/mundial2014.jpg"
 },
 {
     "categoria": "Jugadores",
@@ -327,7 +333,8 @@
     "respuesta": "Andrés Iniesta",
     "incorrecta1": "Xavi Hernández",
     "incorrecta2": "David Villa",
-    "incorrecta3": "Fernando Torres"
+    "incorrecta3": "Fernando Torres",
+    "imagen":"/fotos_Preguntas/mundial2010.jpg"
 },
 {
     "categoria": "Jugadores",
