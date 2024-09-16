@@ -279,9 +279,16 @@ footer {
 }
 
 #resultados {
-    display: none; /* Asegúrate de que esté oculto inicialmente */
+    display: none;
     flex-direction: column;
     align-items: center;
+}
+#resultado-correctas{
+    color: greenyellow;
+}
+
+#resultado-incorrectas{
+    color: red;
 }
 
 .button-container {
