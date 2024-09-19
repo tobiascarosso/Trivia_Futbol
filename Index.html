@@ -22,11 +22,15 @@
         <h2>¡Bienvenidos a la Trivia de Fútbol!</h2>
         <h3>Este es un divertido cuestionario diseñado para poner a prueba tus conocimientos sobre el emocionante mundo del fútbol. Desde curiosidades históricas hasta estadísticas recientes, esta trivia cubrirá una variedad de temas relacionados con el deporte rey. ¡Demuestra tu pasión y habilidades futbolísticas respondiendo a estas preguntas!</h3>
         <div class="button-container">
-            <button class="boton-play">JUGAR</button>
+            <button class="boton-play" id="Preguntados">Preguntados</button>
+            <button class="boton-play" id="Memotest">Memotest</button>
         </div>
         <script>
-            document.querySelector('.boton-play').addEventListener('click', function() {
+            document.getElementById('Preguntados').addEventListener('click', function() {
                 window.location.href = 'Juego.html';
+            });
+            document.getElementById('Memotest').addEventListener('click', function() {
+                window.location.href = 'Memo.html';      
             });
         </script>
     </div>
