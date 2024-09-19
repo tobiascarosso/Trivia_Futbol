@@ -314,9 +314,46 @@ footer {
 }
 
 .cuadrotexto img {
-    max-width: 70%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-width: 70%;
     max-height: 400px;
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Elimina el espacio en blanco debajo de la imagen */
-    margin: 0 auto; /* Centra la imagen si es más pequeña que el contenedor */
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    margin: auto;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #2980b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.card.flip {
+    background-color: #f39c12;
+}
+
+.card img {
+    display: none;
+}
+
+.card.flip img {
+    display: block;
+}
+
+.hidden {
+    visibility: hidden;
 }
