@@ -358,3 +358,6 @@ footer {
 .hidden {
     visibility: hidden;
 }
+#volverInicio {
+    display: none;
+}
