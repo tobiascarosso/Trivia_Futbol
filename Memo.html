@@ -17,7 +17,15 @@
 <body class="cuerpo">
     <div class="cuadrotexto">
         <h1>Memotest</h1>
-        <div id="game-board" class="board"></div>
+
+        <!-- Sección de selección de categoría -->
+        <div id="selector">
+            <button class="button" id="jugadores">Jugadores</button>
+            <button class="button" id="clubes">Clubes</button>
+        </div>
+
+        <!-- Tablero del juego, inicialmente oculto -->
+        <div id="game-board" class="board" style="display: none;"></div>
         <p id="message"></p>
         <div class="button-container">
             <button class="button" id="volverInicio" onclick="volverAlInicio()">Volver al Inicio</button>
@@ -38,4 +46,3 @@
     <script src="scriptMemo.js"></script>
 </body>
 </html>
-``

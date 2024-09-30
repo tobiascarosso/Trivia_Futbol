@@ -1,4 +1,4 @@
-const cards = [
+const cardsJugadores = [
     { name: '1', img: './fotos_Memotest/NicolasJackson.png' },
     { name: '2', img: './fotos_Memotest/Benteke.png' },
     { name: '3', img: './fotos_Memotest/Mateta.png' },
@@ -9,33 +9,51 @@ const cards = [
     { name: '8', img: './fotos_Memotest/Akinfenwa.png' }
 ];
 
-let gameCards = [...cards, ...cards];
+const cardsClubes = [
+    { name: '1', img: './fotos_Memotest/club1.png' },
+    { name: '2', img: './fotos_Memotest/club2.png' },
+    { name: '3', img: './fotos_Memotest/club3.png' },
+    { name: '4', img: './fotos_Memotest/club4.png' },
+    { name: '5', img: './fotos_Memotest/club5.png' },
+    { name: '6', img: './fotos_Memotest/club6.png' },
+    { name: '7', img: './fotos_Memotest/club7.png' },
+    { name: '8', img: './fotos_Memotest/club8.png' }
+];
 
-gameCards = gameCards.sort(() => 0.5 - Math.random());
-
+let gameCards = [];
 let firstCard = null;
 let secondCard = null;
 let lockBoard = false;
 let matches = 0;
 let startTime = null;
-let endTime = null;  
+let endTime = null;
 
 const board = document.getElementById('game-board');
 const message = document.getElementById('message');
+const selector = document.getElementById('selector');
 
+document.getElementById('jugadores').addEventListener('click', () => startGame(cardsJugadores));
+document.getElementById('clubes').addEventListener('click', () => startGame(cardsClubes));
 
-gameCards.forEach(card => {
-    const cardElement = document.createElement('div');
-    cardElement.classList.add('card');
-    cardElement.dataset.name = card.name;
+function startGame(selectedCards) {
+    selector.style.display = 'none'; // Oculta los botones de selección
+    board.style.display = 'flex'; // Muestra el tablero
+    board.innerHTML = ''; // Limpia el tablero antes de agregar cartas
+    gameCards = [...selectedCards, ...selectedCards].sort(() => 0.5 - Math.random());
 
-    const frontFace = document.createElement('img');
-    frontFace.src = card.img;
-    cardElement.appendChild(frontFace);
+    gameCards.forEach(card => {
+        const cardElement = document.createElement('div');
+        cardElement.classList.add('card');
+        cardElement.dataset.name = card.name;
 
-    cardElement.addEventListener('click', flipCard);
-    board.appendChild(cardElement);
-});
+        const frontFace = document.createElement('img');
+        frontFace.src = card.img;
+        cardElement.appendChild(frontFace);
+
+        cardElement.addEventListener('click', flipCard);
+        board.appendChild(cardElement);
+    });
+}
 
 function flipCard() {
     if (lockBoard) return;
@@ -48,12 +66,10 @@ function flipCard() {
     this.classList.add('flip'); 
 
     if (!firstCard) {
-      
         firstCard = this;
         return;
     }
 
- 
     secondCard = this;
     checkForMatch();
 }
@@ -65,13 +81,12 @@ function checkForMatch() {
 }
 
 function disableCards() {
-   
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
     resetBoard();
     matches += 1;
 
-    if (matches === cards.length) {
+    if (matches === cardsJugadores.length) { // Cambia según el tipo de cartas seleccionadas
         endTimer(); 
         setTimeout(() => displayWinMessage(), 500); 
     }
