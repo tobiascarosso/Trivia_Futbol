@@ -10,14 +10,14 @@ const cardsJugadores = [
 ];
 
 const cardsClubes = [
-    { name: '1', img: './fotos_Memotest/club1.png' },
-    { name: '2', img: './fotos_Memotest/club2.png' },
-    { name: '3', img: './fotos_Memotest/club3.png' },
-    { name: '4', img: './fotos_Memotest/club4.png' },
-    { name: '5', img: './fotos_Memotest/club5.png' },
-    { name: '6', img: './fotos_Memotest/club6.png' },
-    { name: '7', img: './fotos_Memotest/club7.png' },
-    { name: '8', img: './fotos_Memotest/club8.png' }
+    { name: '1', img: './fotos_Memotest/sanlorenzo.png' },
+    { name: '2', img: './fotos_Memotest/chacarita.png' },
+    { name: '3', img: './fotos_Memotest/river.png' },
+    { name: '4', img: './fotos_Memotest/independiente.png' },
+    { name: '5', img: './fotos_Memotest/sanma.png' },
+    { name: '6', img: './fotos_Memotest/saca.png' },
+    { name: '7', img: './fotos_Memotest/estudiantes.png' },
+    { name: '8', img: './fotos_Memotest/boca.png' }
 ];
 
 let gameCards = [];
@@ -37,7 +37,7 @@ document.getElementById('clubes').addEventListener('click', () => startGame(card
 
 function startGame(selectedCards) {
     selector.style.display = 'none'; // Oculta los botones de selección
-    board.style.display = 'flex'; // Muestra el tablero
+    board.style.display = 'grid'; // Muestra el tablero
     board.innerHTML = ''; // Limpia el tablero antes de agregar cartas
     gameCards = [...selectedCards, ...selectedCards].sort(() => 0.5 - Math.random());
 

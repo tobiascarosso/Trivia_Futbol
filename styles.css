@@ -70,7 +70,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: #2980b9;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
