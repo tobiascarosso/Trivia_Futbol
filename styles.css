@@ -239,6 +239,22 @@ body {
     gap: 25px;
 }
 
+.boton {
+    background-color: grey;
+    border-radius: 10px;
+    border-color: rgb(78, 78, 78);
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.boton:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 .boton-play {
     position: relative;
     width: 150px;
