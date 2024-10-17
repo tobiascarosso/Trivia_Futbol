@@ -92,100 +92,7 @@ body {
     display: block;
 }
 
-@media (max-width: 1200px) {
-    .cuadrotexto {
-        max-width: 90%;
-    }
 
-    .button-container {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .boton-play {
-        width: 120px;
-        height: 45px;
-    }
-}
-
-@media (max-width: 992px) {
-    .cuadrotexto {
-        padding: 15px;
-    }
-
-    .button-container {
-        margin-top: 15px;
-    }
-
-    .boton-play {
-        width: 100px;
-        height: 40px;
-    }
-
-    .board {
-        grid-template-columns: repeat(3, 80px);
-    }
-
-    .card {
-        width: 80px;
-        height: 80px;
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .cuadrotexto {
-        padding: 10px;
-    }
-
-    .boton {
-        width: 80%;
-    }
-
-    .board {
-        grid-template-columns: repeat(2, 70px);
-    }
-
-    .card {
-        width: 70px;
-        height: 70px;
-        font-size: 1.2rem;
-    }
-    footer {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .cuadrotexto {
-        font-size: 0.8rem;
-        padding: 8px;
-    }
-
-    .button-container {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .boton-play {
-        width: 80px;
-        height: 35px;
-    }
-
-    .board {
-        grid-template-columns: repeat(1, 60px);
-    }
-
-    .card {
-        width: 60px;
-        height: 60px;
-        font-size: 1rem;
-    }
-
-    footer {
-        font-size: 0.7rem;
-    }
-}
 
 @keyframes slideIn {
     from {
@@ -355,12 +262,11 @@ body {
     display: flex;
     justify-content: flex-end;
     flex: 1;
-    gap: 10px;
+    gap: 30px;
 }
 
 .pie-pag a {
     display: inline-block;
-    margin-left: 15px; 
 }
 
 .pie-pag a i {
@@ -412,5 +318,207 @@ footer a{
 }
 #derechos:hover{
     color: lightgray;
-    transform: scale(1.05);
+    transform: scale(1.03);
+}
+
+
+@media (max-width: 1200px) {
+    element.style {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .cuadrotexto {
+        max-width: 90%;
+    }
+
+    .boton-play {
+        width: 120px;
+        height: 45px;
+    }
+    .board {
+  
+        grid-template-columns: repeat(4, 100px);
+        grid-gap: 30px;
+    }
+    .card {
+        width: 90px;
+        height: 90px;
+        font-size: 1.5rem;
+        
+    }
+}
+
+@media (max-width: 992px) {
+    element.style {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .cuadrotexto {
+        padding: 15px;
+    }
+
+    .button-container {
+        margin-top: 15px;
+    }
+
+    .boton-play {
+        width: 120px;
+        height: 45px;
+    }
+
+    .board {
+  
+        grid-template-columns: repeat(4, 80px);
+        grid-gap: 20px;
+    }
+
+    .card {
+        width: 80px;
+        height: 80px;
+        font-size: 1.5rem;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    element.style {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .pie-pag .social-icons {
+        gap: 25px;
+    }
+
+    .cuadrotexto {
+        padding: 10px;
+    }
+
+    .boton {
+        width: 80%;
+    }
+
+    .board {
+        grid-template-columns: repeat(4, 70px);
+        grid-gap: 10px
+    }
+
+    .card {
+        width: 70px;
+        height: 70px;
+        font-size: 1.2rem;
+    }
+    
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    element.style {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .pie-pag .social-icons {
+        gap: 10px;
+    }
+
+    .cuadrotexto {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .boton-play {
+        width: 120px;
+        height: 45px;
+    }
+
+    .board {
+        grid-template-columns: repeat(4, 60px);
+    }
+
+    .card {
+        width: 60px;
+        height: 60px;
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+    .pie-pag a img {
+        width: 80%;
+    }
+    .social-icons i::before {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    element.style {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .pie-pag .social-icons {
+        gap: 10px;
+    }
+
+    .cuadrotexto {
+        padding: 6px;
+        font-size: 0.7rem;
+        width: 100%;
+    }
+
+    .button-container {
+        gap: 15px;
+    }
+
+    .boton-play {
+        width: 100px;
+        height: 40px;
+        font-size: 0.7rem;
+    }
+
+    .board {
+        grid-template-columns: repeat(4, 50px);
+    }
+
+    .card {
+        width: 50px;
+        height: 50px;
+        font-size: 0.8rem;
+    }
+    .pie-pag .social-icons{
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+        gap: 10px;
+    }
+    footer {
+        font-size: 0.6rem;
+    }
+    .pie-pag a img {
+        align-items: center;
+        width: 100px;
+        padding: 10px;
+    }
+    .social-icons i::before {
+        font-size: 1.7rem;
+    }
 }
