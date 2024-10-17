@@ -328,6 +328,51 @@ body {
     color: #ffffff;
     margin-bottom: 10px;
 }
+.pie-pag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 54, 101);
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.pie-pag p {
+    margin: 0;
+    flex: 1; 
+    text-align: left;
+}
+
+.pie-pag img {
+    width: 100%; 
+    display: block;
+    margin: 0 auto;
+}
+
+.pie-pag .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 10px;
+}
+
+.pie-pag a {
+    display: inline-block;
+    margin-left: 15px; 
+}
+
+.pie-pag a i {
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.pie-pag a:hover i {
+    color: lightgray;
+    transform: scale(1.2);
+}
 
 #resultados {
     display: none;
@@ -359,46 +404,13 @@ footer a{
     text-decoration: none;
     color: #ffffff;
 }
-
-.pie-pag {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(3, 54, 101);
-    color: white;
-    padding: 10px 20px;
-    width: 100%;
-}
-
-.pie-pag p {
-    margin: 0;
-    flex: 1;
-    text-align: left;
-}
-
-.pie-pag img {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
-.pie-pag .social-icons {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
-    gap: 10px;
-}
-
-.pie-pag a {
-    display: inline-block;
-    margin-left: 15px;
-}
-
-.pie-pag a i {
-    font-size: 2rem;
-    color: white;
-}
-
 .uso-imagen-ea-fc a{
     text-decoration: none;
+}
+#derechos{
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+#derechos:hover{
+    color: lightgray;
+    transform: scale(1.05);
 }
