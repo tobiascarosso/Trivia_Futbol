@@ -1,23 +1,23 @@
 const cardsJugadores = [
-    { name: '1', img: '../fotos_Memotest/NicolasJackson.png' },
-    { name: '2', img: '../fotos_Memotest/Benteke.png' },
-    { name: '3', img: '../fotos_Memotest/Mateta.png' },
-    { name: '4', img: '../fotos_Memotest/YayaToure.png' },
-    { name: '5', img: '../fotos_Memotest/JonathanIkone.png' },
-    { name: '6', img: '../fotos_Memotest/SolCampbell.png' },
-    { name: '7', img: '../fotos_Memotest/MamadouNiang.png' },
-    { name: '8', img: '../fotos_Memotest/Akinfenwa.png' }
+    { name: '1', img: './fotos_MemoTest/NicolasJackson.png' },
+    { name: '2', img: './fotos_MemoTest/Benteke.png' },
+    { name: '3', img: './fotos_MemoTest/Mateta.png' },
+    { name: '4', img: './fotos_MemoTest/YayaToure.png' },
+    { name: '5', img: './fotos_MemoTest/JonathanIkone.png' },
+    { name: '6', img: './fotos_MemoTest/SolCampbell.png' },
+    { name: '7', img: './fotos_MemoTest/MamadouNiang.png' },
+    { name: '8', img: './fotos_MemoTest/Akinfenwa.png' }
 ];
 
 const cardsClubes = [
-    { name: '1', img: './fotos_Memotest/sanlorenzo.png' },
-    { name: '2', img: './fotos_Memotest/chacarita.png' },
-    { name: '3', img: './fotos_Memotest/river.png' },
-    { name: '4', img: './fotos_Memotest/independiente.png' },
-    { name: '5', img: './fotos_Memotest/sanma.png' },
-    { name: '6', img: './fotos_Memotest/saca.png' },
-    { name: '7', img: './fotos_Memotest/estudiantes.png' },
-    { name: '8', img: './fotos_Memotest/boca.png' }
+    { name: '1', img: './fotos_MemoTest/sanlorenzo.png' },
+    { name: '2', img: './fotos_MemoTest/chacarita.png' },
+    { name: '3', img: './fotos_MemoTest/river.png' },
+    { name: '4', img: './fotos_MemoTest/independiente.png' },
+    { name: '5', img: './fotos_MemoTest/sanma.png' },
+    { name: '6', img: './fotos_MemoTest/saca.png' },
+    { name: '7', img: './fotos_MemoTest/estudiantes.png' },
+    { name: '8', img: './fotos_MemoTest/boca.png' }
 ];
 
 let gameCards = [];
