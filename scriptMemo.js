@@ -1,12 +1,12 @@
 const cardsJugadores = [
-    { name: '1', img: './fotos_Memotest/NicolasJackson.png' },
-    { name: '2', img: './fotos_Memotest/Benteke.png' },
-    { name: '3', img: './fotos_Memotest/Mateta.png' },
-    { name: '4', img: './fotos_Memotest/YayaToure.png' },
-    { name: '5', img: './fotos_Memotest/JonathanIkone.png' },
-    { name: '6', img: './fotos_Memotest/SolCampbell.png' },
-    { name: '7', img: './fotos_Memotest/MamadouNiang.png' },
-    { name: '8', img: './fotos_Memotest/Akinfenwa.png' }
+    { name: '1', img: '../fotos_Memotest/NicolasJackson.png' },
+    { name: '2', img: '../fotos_Memotest/Benteke.png' },
+    { name: '3', img: '../fotos_Memotest/Mateta.png' },
+    { name: '4', img: '../fotos_Memotest/YayaToure.png' },
+    { name: '5', img: '../fotos_Memotest/JonathanIkone.png' },
+    { name: '6', img: '../fotos_Memotest/SolCampbell.png' },
+    { name: '7', img: '../fotos_Memotest/MamadouNiang.png' },
+    { name: '8', img: '../fotos_Memotest/Akinfenwa.png' }
 ];
 
 const cardsClubes = [
