@@ -123,5 +123,5 @@ function displayWinMessage() {
 }
 
 function volverAlInicio() {
-    window.location.href = 'Index.html';
+    window.location.href = 'index.html';
 }
